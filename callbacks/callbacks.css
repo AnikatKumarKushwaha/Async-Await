@@ -1,0 +1,47 @@
+/* Task 1: styling and design*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #a78bfa, #8b5cf6, #7c3aed);
+}
+
+.button-container button {
+  cursor: pointer;
+  margin: 60px 0px 20px 0px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.dummy-data-container {
+  background-color: #fff;
+  height: 80%;
+  width: 40%;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-radius: 4px;
+  padding: 5px 3px;
+  overflow-x: auto;
+}
+.not-fetched {
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post {
+  padding: 10px 8px;
+  border-radius: 4px;
+  border-bottom: 1px solid #94a3b8;
+}
+.post:hover {
+  background-color: #e2e8f0;
+}
